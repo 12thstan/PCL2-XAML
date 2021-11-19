@@ -1,0 +1,74 @@
+<!-- 图片部分-->
+<local:MyCard Title="如图" Margin="0,0,0,15" >
+    <StackPanel Margin="25,40,23,15">
+		<Image Height="150" HorizontalAlignment="Center" 
+		Source="http://www.5577.com/up/2018-2/15195241948115400.png" ToolTip="看什么看快学习！" />
+		<TextBlock TextWrapping="Wrap" Margin="0,10,0,4" HorizontalAlignment="Center"
+		Text="图 1.1 今天你学习了吗？" ToolTip="论文格式后遗症" />
+    </StackPanel>
+</local:MyCard>
+
+<!-- 网站部分-->
+<local:MyCard Title="网站" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15"> 
+        <!-- 第一行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+			Text="B 站" EventType="打开网页" EventData="https://www.bilibili.com/"  ToolTip="我已经两分钟没逛B站了" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="MCBBS" EventType="打开网页" EventData="https://www.mcbbs.net/portal.php" ToolTip="每日签到emmm" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="MC WiKi" EventType="打开网页" EventData="https://wiki.biligame.com/mc/Minecraft_Wiki" ToolTip="B站镜像WiKi" />
+        </StackPanel>
+
+        <!-- 第二行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="Sakur Frp" EventType="打开网页" EventData="https://www.natfrp.com/user/sign" ToolTip="内网穿透" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="问号" EventType="打开网页" EventData="https://gametame.com/earn/" ToolTip="¿ ¿ ¿"/>
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="Bai Du" EventType="打开网页" EventData="https://www.baidu.com/" ToolTip="有问题，找🡑🡑🡑"/>
+        </StackPanel>
+
+		<!-- 第三行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="LTW3" EventType="启动游戏" EventData="1.16.5|s4.e7mc.com:12385" ToolTip="lmyyds" />
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+            Text="Hypixel" EventType="启动游戏" EventData="1.8|mc.hypixel.net" ToolTip="Minecraft 1.8" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<!-- 辅助部分-->
+<local:MyCard Title="辅助" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15" > 
+        <!-- 第一行 -->
+        <local:MyHint IsWarn="False" Text="测试专用" />
+
+        <!-- 第二行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="刷新主页" EventType="刷新主页" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="定位文件" EventType="打开文件" EventData="explorer.exe|/select,LatestLaunch.bat" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            Text="下载路径" EventType="打开文件" EventData="{path}\PCL\MyDownload" ToolTip="自定义下载路径" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<!-- 弄着玩的-->
+<local:MyCard Title="附加⭣" Margin="0,0,0,15" Height="35" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15" Orientation="Horizontal" HorizontalAlignment="Center" >
+		<TextBlock TextWrapping="Wrap" Margin="0,10,0,4" HorizontalAlignment="Left" Foreground="#FFFFFF"
+		Text="\" ToolTip="早睡早起不熬夜" />
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" 
+		Text="附加在下面⭣⭣" ColorType="Highlight" ToolTip="🠕🠕🠕" EventType="打开网页" EventData="https://aidn.jp/mikutap/" />
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" 
+		Text="(dog" ColorType="Highlight" EventType="复制文本" EventData="-.-. .- . ... .- .-. -....- -.-. .. .--. .... . .-. "  ToolTip="vkxl-mldr-ql-idq-bl-gh-(grj" />
+		<TextBlock TextWrapping="Wrap" Margin="0,10,0,4" HorizontalAlignment="Left" Foreground="#FFFFFF"
+		Text="/" ToolTip="http://x8a.cn/eKFj2" />
+	</StackPanel>
+</local:MyCard>
