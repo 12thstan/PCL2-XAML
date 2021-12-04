@@ -69,6 +69,6 @@
         <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" 
 		Text="(dog" ColorType="Highlight" EventType="复制文本" EventData="-.-. .- . ... .- .-. -....- -.-. .. .--. .... . .-. "  ToolTip="vkxl-mldr-ql-idq-bl-gh-(grj" />
 		<TextBlock TextWrapping="Wrap" Margin="0,10,0,4" HorizontalAlignment="Left" Foreground="#FFFFFF"
-		Text="/" ToolTip="http://x8a.cn/eKFj2" />
+		Text="/" ToolTip="http://33h.co/brzmp" />
 	</StackPanel>
 </local:MyCard>
