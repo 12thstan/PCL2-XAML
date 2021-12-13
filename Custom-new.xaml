@@ -57,13 +57,11 @@
     </Grid.ColumnDefinitions>
     <TabControl SelectedIndex="{Binding ElementName=te,Path=SelectedIndex}" >
         <TabItem>
-            <local:MyButton IsEnabled="{Binding ElementName=tb,Path=IsChecked}" HorizontalAlignment="Center" 
-            VerticalAlignment="Center" Margin="3" Width="140" Height="20" Text="?" ColorType="Highlight" 
+            <local:MyButton IsEnabled="{Binding ElementName=tb,Path=IsChecked}" HorizontalAlignment="Center" Width="20" Text="?" ColorType="Highlight" 
             EventType="打开文件" EventData="explorer.exe|/select,Setup.ini" ToolTip="Starry Sky" />
         </TabItem>
         <TabItem>
-            <CheckBox Name="tb" Content="42" HorizontalAlignment="Left" VerticalAlignment="Center" 
-            Margin="3" Width="140" Height="20" ToolTip="?" />          
+            <CheckBox Name="tb" Content="42" ToolTip="?" />          
         </TabItem>
     </TabControl>
     <ComboBox SelectedIndex="0" Name="te" Grid.Column="1">
