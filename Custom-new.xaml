@@ -35,7 +35,7 @@
         <TabItem.Header>
             独占
         </TabItem.Header>
-        <TextBlock Text="github https://github.com/12thstan/PCL2-XAML" />
+        <TextBlock Text=" https://github.com/12thstan/PCL2-XAML    https://gitee.com/c12th/PCL2-XAML" />
     </TabItem>
 </TabControl>
 
