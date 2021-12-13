@@ -1,4 +1,4 @@
-﻿<!-- 顶端-->
+<!-- 顶端-->
 <TabControl Margin="0,0,0,15">
     <TabItem Background="{DynamicResource ColorBrush}" >
         <TabItem.Header>
