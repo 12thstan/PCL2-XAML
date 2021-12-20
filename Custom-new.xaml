@@ -96,7 +96,7 @@
 		<!-- 第三行 -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
-            Text="LTW3" EventType="启动游戏" EventData="1.16.5|s4.e7mc.com:12385" ToolTip="lmyyds" />
+            Text="LTW3" EventType="启动游戏" EventData="1.18.1|pcl2.fwmc.cc" ToolTip="lmyyds" />
 			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
             Text="Hypixel" EventType="启动游戏" EventData="1.8|mc.hypixel.net" ToolTip="Minecraft 1.8" />
         </StackPanel>
